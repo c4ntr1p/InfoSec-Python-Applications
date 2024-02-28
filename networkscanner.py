@@ -1,14 +1,8 @@
 # Network Scanner for Python. I'd like to work on a GUI icon and display box so result happens outside of command line.
-# dont forget! sudo chmod +X networkscanner (in linux) 
+# still look at which python interpreter will work for Manjaro. I would suggest python3, but if python is the best we can roll with that. 
 
-#!/usr/bin/env python3
-from tkinter import *
 from socket import *
 import time
-
-#def scan_ports():
-<FUNCTION>
-
 startTime = time.time()
 
 if __name__ == '__main__':
@@ -24,15 +18,3 @@ if __name__ == '__main__':
          print ('Port %d: OPEN' % (i,))
       s.close()
 print('Time taken:', time.time() - startTime)
-
-# Below is all I could find tonight on the tail. Header still needs some work. But man this file is amazing.... 
-# Create the main Window
-root =TK ()
-root.title('Network Scanner')
-
-# Create widgets and buttons
-<FUNCTION>
-
-# Start GUI Loop
-startTime = time.time()
-root.mainloop()
