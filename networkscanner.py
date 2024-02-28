@@ -1,5 +1,5 @@
 #Network Scanner for Python. I'd like to work on a GUI icon and display box so result happens outside of command line.
-
+#!/usr/bin/env python3
 from socket import *
 import time
 startTime = time.time()
