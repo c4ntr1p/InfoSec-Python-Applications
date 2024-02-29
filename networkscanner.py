@@ -1,5 +1,6 @@
-#Network Scanner for Python. I'd like to work on a GUI icon and display box so result happens outside of command line.
-#!/usr/bin/env python3
+# Network Scanner for Python. I'd like to work on a GUI icon and display box so result happens outside of command line.
+# still look at which python interpreter will work for Manjaro. I would suggest python3, but if python is the best we can roll with that. 
+
 from socket import *
 import time
 startTime = time.time()
