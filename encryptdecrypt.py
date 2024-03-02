@@ -19,3 +19,4 @@ def write_key():
     print(decrypted_encrypted) 
 
     # project from https://thepythoncode.com/article/encrypt-decrypt-files-symmetric-python 
+    # only prints file path as of 03/01/2024 2116 hrs in VS Code when run
